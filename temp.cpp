@@ -1,15 +1,25 @@
 #include <iostream>
 using namespace std;
 int main(){
-    bool a = 128 < 12;
-    bool b = false;
-    bool c = true;
-    bool d = false;
 
-    if(a && c){
-        cout << "Yes" << endl; 
+    char a;
+    cout << "Enter character" << endl;
+    cin >> a;
+
+    int a2 = a;
+
+    if(a2 >= 65 && a2 <= 90){
+        cout << "Capital ABCD" << endl;
     }
     else{
-        cout << "No" << endl;
+        cout << "not" << endl;
     }
+
+
+
+
+
+   
+
+
 }
